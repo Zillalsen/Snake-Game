@@ -75,8 +75,8 @@ body {
         transform: translateX(-50%);
     }
     .right {
-        right: 30%;
-        transform: translateX(-50%);
+        right: 40%;
+        transform: translateX(50%);
     }
     .up {
         top: 0;
