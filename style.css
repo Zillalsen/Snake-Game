@@ -61,11 +61,11 @@ body {
         height: 6.5rem;
     }
     .controls i{
-        padding: 25px 0;
         text-align: center;
         color: #fff;
         font-size: 1.3rem;
         cursor: pointer;
+        padding: .5rem 1rem;
     }
     .left,.right,.down,.up {
         position: absolute;
