@@ -75,13 +75,13 @@ body {
         transform: translateX(-50%);
     }
     .right {
-        right: 35%;
+        right: 30%;
         transform: translateX(-50%);
     }
     .up {
-        top: -30%;
+        top: 0;
     }
     .down {
-        bottom: -30%;
+        bottom: 0;
     }
 }
