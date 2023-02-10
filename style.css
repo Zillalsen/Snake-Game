@@ -49,18 +49,39 @@ body {
     display: none;
 }
 @media screen and (max-width:540px) {
+    .wrapper {
+    height: 480px;
+    }
     .controls {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         background-color: rgb(51, 57, 69);
+        position: relative;
+        align-items: center;
+        height: 6.5rem;
     }
     .controls i{
         padding: 25px 0;
-        width: calc(100% / 4);
         text-align: center;
         color: #fff;
         font-size: 1.3rem;
         cursor: pointer;
-        border-right: 1px solid rgb(32, 36, 43);
+    }
+    .left,.right,.down,.up {
+        position: absolute;
+    }
+    .left {
+        left: 40%;
+        transform: translateX(-50%);
+    }
+    .right {
+        right: 35%;
+        transform: translateX(-50%);
+    }
+    .up {
+        top: -30%;
+    }
+    .down {
+        bottom: -30%;
     }
 }
